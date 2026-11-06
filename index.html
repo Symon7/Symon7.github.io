@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic and professional portfolio of Md Shakhawat Alam, Applied Statistics PhD candidate at Oakland University.">
+  <title>Md Shakhawat Alam | Academic & Industry Portfolio</title>
+  <style>
+    :root {
+      --navy: #123B63;
+      --gold: #BC955C;
+      --light-gold: #F4EBDD;
+      --ink: #263445;
+      --muted: #64748b;
+      --paper: #ffffff;
+      --background: #f5f7fa;
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--background);
+      line-height: 1.7;
+    }
+    a { color: var(--navy); }
+    header {
+      background: var(--navy);
+      color: white;
+      padding: 18px 7%;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 3px solid var(--gold);
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+    .brand { font-weight: bold; font-size: 19px; }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 17px;
+      font-size: 14px;
+    }
+    nav a:hover { color: #f0d5aa; }
+    .hero {
+      background: linear-gradient(120deg, #123B63, #20547e);
+      color: white;
+      padding: 90px 8%;
+      text-align: center;
+    }
+    .hero h1 { font-size: clamp(32px, 5vw, 48px); margin: 0 0 12px; }
+    .hero .subtitle { color: #f0d5aa; font-size: 20px; }
+    .hero p { max-width: 760px; margin: 18px auto; }
+    .button {
+      display: inline-block;
+      background: var(--gold);
+      color: white;
+      padding: 11px 22px;
+      margin: 10px 5px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid white;
+    }
+    main { max-width: 1100px; margin: auto; padding: 25px; }
+    section {
+      background: var(--paper);
+      margin: 25px 0;
+      padding: 32px;
+      border-radius: 9px;
+      box-shadow: 0 3px 15px rgba(0,0,0,.045);
+    }
+    h2 {
+      color: var(--navy);
+      border-bottom: 2px solid var(--gold);
+      padding-bottom: 9px;
+      margin-top: 0;
+    }
+    h3 { color: var(--navy); margin-bottom: 5px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 18px;
+    }
+    .item {
+      background: #f7f9fc;
+      border-left: 4px solid var(--gold);
+      padding: 17px;
+      border-radius: 5px;
+    }
+    .date, .muted { color: var(--muted); font-size: 14px; }
+    .tag {
+      display: inline-block;
+      background: var(--light-gold);
+      color: var(--navy);
+      padding: 5px 11px;
+      border-radius: 20px;
+      margin: 4px;
+      font-size: 13px;
+    }
+    footer {
+      text-align: center;
+      padding: 28px;
+      background: var(--navy);
+      color: white;
+      margin-top: 35px;
+    }
+    footer a { color: #f0d5aa; }
+    @media(max-width: 700px) {
+      header { position: static; }
+      nav { justify-content: center; }
+      nav a { margin: 5px 8px; }
+      section { padding: 22px; }
+      .hero { padding: 65px 7%; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="brand">Md Shakhawat Alam</div>
+    <div>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#industry">Industry</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Md Shakhawat Alam</h1>
+  <div class="subtitle">Applied Statistics | Statistical Finance | Data Science</div>
+  <p>
+    PhD Candidate in Applied Mathematical Sciences (Applied Statistics)
+    at Oakland University, with more than 14 years of university teaching
+    experience and research interests in portfolio optimization,
+    financial analytics, and statistical data science.
+  </p>
+  <a class="button" href="#research">Explore My Research</a>
+  <a class="button secondary" href="#contact">Contact</a>
+</div>
+
+<main>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I am a PhD candidate in Applied Mathematical Sciences, specializing
+    in Applied Statistics, at Oakland University, Michigan. My academic
+    background combines advanced training in statistics and mathematics
+    with extensive university teaching experience.
+  </p>
+  <p>
+    My research focuses on statistical methodologies for financial
+    data analysis, optimal portfolio selection, mixture-design
+    experiments, and performance evaluation of leveraged exchange-traded
+    funds. I am interested in applying statistical modeling and
+    computational methods to practical financial and data science problems.
+  </p>
+  <p>
+    Alongside my research, I bring more than 14 years of university
+    teaching experience in mathematics and statistics-related education.
+  </p>
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="grid">
+    <div class="item">
+      <h3>PhD Candidate</h3>
+      <strong>Applied Mathematical Sciences (Applied Statistics)</strong>
+      <p>Oakland University, Michigan, USA</p>
+      <p class="date">Expected completion: June 2027</p>
+    </div>
+    <div class="item">
+      <h3>MS in Applied Statistics</h3>
+      <p>Oakland University, Michigan, USA</p>
+    </div>
+    <div class="item">
+      <h3>MS in Mathematics</h3>
+      <p>Jagannath University, Dhaka, Bangladesh</p>
+    </div>
+    <div class="item">
+      <h3>MPhil in Mathematics</h3>
+      <p>Jagannath University, Dhaka, Bangladesh</p>
+    </div>
+  </div>
+</section>
+
+<section id="research">
+  <h2>Research Interests</h2>
+  <div>
+    <span class="tag">Statistical Finance</span>
+    <span class="tag">Portfolio Optimization</span>
+    <span class="tag">Financial Data Analytics</span>
+    <span class="tag">Statistical Data Science</span>
+    <span class="tag">Mixture Experiments</span>
+    <span class="tag">Leveraged ETFs</span>
+    <span class="tag">Statistical Machine Learning</span>
+    <span class="tag">Regression Modeling</span>
+  </div>
+  <h3>Doctoral Dissertation</h3>
+  <p>
+    <strong>Advanced Statistical Methodologies for Optimal Portfolio
+    Selection and Performance Evaluation of Leveraged Exchange-Traded Funds</strong>
+  </p>
+  <p class="muted">Oakland University | Applied Mathematical Sciences</p>
+  <p>
+    My dissertation develops and evaluates statistical approaches to
+    portfolio selection and examines the performance characteristics
+    of leveraged exchange-traded funds.
+  </p>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <div class="item">
+    <p>
+      Khattree, R., &amp; Alam, M. S. (2026).
+      <strong>Low Volatility Optimal Portfolio Selection:
+      Financial Experiments with Mixture Designs.</strong>
+      <em>Journal of the Indian Society of Agricultural Statistics,
+      80</em>(01), 97–118.
+    </p>
+    <p>
+      DOI:
+      <a href="https://doi.org/10.56093/jisas.v80i01.182077"
+         target="_blank" rel="noopener">
+        10.56093/jisas.v80i01.182077
+      </a>
+    </p>
+    <p>
+      This research applies mixture-design methodology to financial
+      portfolio selection, with an emphasis on identifying portfolios
+      with desirable low-volatility characteristics.
+    </p>
+  </div>
+</section>
+
+<section id="industry">
+  <h2>Industry Portfolio &amp; Financial Analytics</h2>
+  <p>
+    My applied work connects statistical methods with financial
+    decision-making, investment analysis, and quantitative research.
+  </p>
+  <div class="grid">
+    <div class="item">
+      <h3>Portfolio Selection</h3>
+      <p>
+        Statistical mixture-design methods for constructing and
+        evaluating portfolios with desirable risk characteristics.
+      </p>
+    </div>
+    <div class="item">
+      <h3>Leveraged ETF Evaluation</h3>
+      <p>
+        Empirical evaluation of leveraged ETF performance using
+        daily, weekly, and monthly returns and leverage comparisons.
+      </p>
+    </div>
+    <div class="item">
+      <h3>Financial Data Analysis</h3>
+      <p>
+        Descriptive statistics, regression, correlation, volatility,
+        distributional analysis, and graphical exploration of
+        financial return data.
+      </p>
+    </div>
+    <div class="item">
+      <h3>Statistical Modeling</h3>
+      <p>
+        Regression-based analysis, model evaluation, and statistical
+        approaches to financial performance assessment.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="teaching">
+  <h2>Teaching Experience</h2>
+  <p>
+    More than 14 years of university-level teaching experience in
+    mathematics, including instruction, student support, assessment,
+    and academic mentoring.
+  </p>
+  <div class="item">
+    <h3>Graduate Teaching Assistant / Instructor</h3>
+    <strong>Oakland University, Michigan, USA</strong>
+    <p class="date">September 2022 – Present</p>
+    <p>
+      Teaching and supporting undergraduate mathematics courses,
+      conducting workshops, grading, and proctoring.
+      Instructor experience includes Elementary Algebra and
+      Intermediate Algebra.
+    </p>
+  </div>
+  <div class="item">
+    <h3>Assistant Professor of Mathematics</h3>
+    <strong>Anwer Khan Modern University, Bangladesh</strong>
+    <p class="date">June 2019 – August 2022</p>
+  </div>
+  <div class="item">
+    <h3>Senior Lecturer in Mathematics</h3>
+    <strong>World University of Bangladesh</strong>
+    <p class="date">November 2012 – March 2019</p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="grid">
+    <div class="item">
+      <h3>Statistical Software</h3>
+      <p>SAS, R, RStudio</p>
+    </div>
+    <div class="item">
+      <h3>Programming</h3>
+      <p>Python</p>
+    </div>
+    <div class="item">
+      <h3>Statistical Methods</h3>
+      <p>Regression, descriptive statistics, correlation analysis,
+      experimental design, portfolio analysis</p>
+    </div>
+    <div class="item">
+      <h3>Research Applications</h3>
+      <p>Financial data analysis, statistical modeling,
+      investment performance evaluation</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    I welcome opportunities for academic collaboration, teaching,
+    statistical research, and industry positions in financial analytics
+    and data science.
+  </p>
+  <p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/Symon7" target="_blank" rel="noopener">
+      github.com/Symon7
+    </a>
+  </p>
+  <p class="muted">
+    Email and professional profile links will be added after verification.
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2026 Md Shakhawat Alam | Academic &amp; Industry Portfolio</p>
+  <p>Built with GitHub Pages</p>
+</footer>
+
+</body>
+</html>
