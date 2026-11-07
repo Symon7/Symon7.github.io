@@ -117,15 +117,34 @@ footer {
         height: 240px;
     }
 }
+.home-profile {
+    display: flex;
+    align-items: flex-start;
+    gap: 35px;
+    margin-top: 25px;
+}
+
 .profile-photo {
     width: 220px;
     min-width: 220px;
 }
 
 .profile-photo img {
-    width: 100%;
+    display: block;
+    width: 220px;
     height: 260px;
     object-fit: cover;
     object-position: center top;
     border: 1px solid #cccccc;
+}
+
+.profile-intro {
+    flex: 1;
+}
+
+@media screen and (max-width: 650px) {
+    .home-profile {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
